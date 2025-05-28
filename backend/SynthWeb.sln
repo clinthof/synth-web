@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynthWeb.API", "SynthWeb.API\SynthWeb.API.csproj", "{23E8E3F7-BAC0-4817-A8F5-046DF0B85979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynthWeb.Domain", "SynthWeb.Domain\SynthWeb.Domain.csproj", "{D8D21B82-96DC-4E07-B8DC-EDBFC72FCACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynthWeb.Application", "SynthWeb.Application\SynthWeb.Application.csproj", "{61265E7A-DC9B-4E24-AA6B-3FE63D0BF783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynthWeb.Infrastructure", "SynthWeb.Infrastructure\SynthWeb.Infrastructure.csproj", "{94ED7E61-DFBA-4652-A0C8-A938DF099419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynthWeb.Tests", "SynthWeb.Tests\SynthWeb.Tests.csproj", "{D59855B6-7C8E-4674-98A9-CB35935C41EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynthWeb.SharedKernel", "SynthWeb.SharedKernel\SynthWeb.SharedKernel.csproj", "{B1A64747-DB62-4944-B0A4-36233E54AD1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23E8E3F7-BAC0-4817-A8F5-046DF0B85979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E8E3F7-BAC0-4817-A8F5-046DF0B85979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E8E3F7-BAC0-4817-A8F5-046DF0B85979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E8E3F7-BAC0-4817-A8F5-046DF0B85979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D21B82-96DC-4E07-B8DC-EDBFC72FCACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D21B82-96DC-4E07-B8DC-EDBFC72FCACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D21B82-96DC-4E07-B8DC-EDBFC72FCACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D21B82-96DC-4E07-B8DC-EDBFC72FCACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61265E7A-DC9B-4E24-AA6B-3FE63D0BF783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61265E7A-DC9B-4E24-AA6B-3FE63D0BF783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61265E7A-DC9B-4E24-AA6B-3FE63D0BF783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61265E7A-DC9B-4E24-AA6B-3FE63D0BF783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94ED7E61-DFBA-4652-A0C8-A938DF099419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ED7E61-DFBA-4652-A0C8-A938DF099419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94ED7E61-DFBA-4652-A0C8-A938DF099419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94ED7E61-DFBA-4652-A0C8-A938DF099419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59855B6-7C8E-4674-98A9-CB35935C41EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59855B6-7C8E-4674-98A9-CB35935C41EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59855B6-7C8E-4674-98A9-CB35935C41EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59855B6-7C8E-4674-98A9-CB35935C41EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A64747-DB62-4944-B0A4-36233E54AD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A64747-DB62-4944-B0A4-36233E54AD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A64747-DB62-4944-B0A4-36233E54AD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A64747-DB62-4944-B0A4-36233E54AD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
