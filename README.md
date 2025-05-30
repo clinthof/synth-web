@@ -1,1 +1,1 @@
-Check out the wiki in the interim
+Check out the [wiki](https://github.com/clinthof/synth-web/wiki) in the interim
