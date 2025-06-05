@@ -1,0 +1,22 @@
+{
+  "name": "synth-web",
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:web\" \"npm run dev:bff\" \"npm run dev:api\"",
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:bff": "cd apps/bff && dotnet run",
+    "dev:api": "cd apps/api && dotnet run",
+    "build": "npm run build:packages && npm run build:web",
+    "build:packages": "npm run build:ui && npm run build:types",
+    "build:ui": "cd packages/ui-components && npm run build",
+    "build:types": "cd packages/shared-types && npm run build",
+    "build:web": "cd apps/web && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
